@@ -79,7 +79,10 @@
 
         <div class="d-flex">
 
-            @include('partials.sidebar')
+            @auth
+                @include('partials.sidebar')
+            @endauth
+
             <div class="flex-grow-1 d-flex flex-column">
                 <main class="py-4">
                     @yield('content')
