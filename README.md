@@ -52,3 +52,6 @@ Start the local development server
     compoer run dev
 
 You can now access the server at http://localhost:8000
+
+
+![Student CRUD](screenshots/dashboard.png)
